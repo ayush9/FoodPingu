@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/editText1"
+        android:text="Find" />
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THALI"
+        android:textSize="20dp"
+        android:id="@+id/button4"
+        android:background="#ff6600"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:onClick="breakfast1"
+        android:gravity="center"
+        android:layout_below="@+id/map"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

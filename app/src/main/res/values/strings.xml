@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FoodPingu</string>
+    <string name="title_section1">My Account</string>
+    <string name="title_section2">Wallet</string>
+    <string name="title_section3">Promotions</string>
+    <string name="title_section4">Share and Earn</string>
+    <string name="title_section5">Feedback</string>
+    <string name="title_section6">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+<string name="action_settings">Settings</string>
+    <string name="title_activity_foodmap">foodmap</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="current_location">AT CURRENT LOCATION</string>
+    <string name="new_location">ADD NEW LOCATION</string>
+    <string name="str_btn_find">Find</string>
+    <string name="hnt_et_location">Enter location</string>
+    <string name="app_id">"836810626396776"</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="welcome">WELCOME</string>
+    <string name="get_started">To get started, log in using Facebook</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_fbb">fbb</string>
+    <string name="title_activity_form">Form</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_hello">Hello</string>
+    <string name="signing_in">Sign in with Google</string>
+    <string name="title_activity_logout">Logout</string>
+    <string name="title_activity_wallet">Wallet</string>
+    <string name="action_search">Add To Cart</string>
+    <string name="title_activity_pay_pal_selection">PayPal_selection</string>
+    <string name="title_activity_pay_pal_sdk">PayPal_sdk</string>
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+    <string name="hello">Hello</string>
+
+    <string-array name="countries">
+        <item>My Account</item>
+        <item>Wallet</item>
+        <item>Promotions</item>
+        <item>Share and Earn</item>
+        <item>Feedback</item>
+        <item>Logout</item>
+
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <dimen name="count">10dp</dimen>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+
+
+    <!-- Content Description -->
+
+
+</resources>
